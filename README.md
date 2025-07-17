@@ -16,7 +16,7 @@ and JetBrains. The [Autoprefixer] and [Stylelint] PostCSS plugins are some o
 Install Tailwind CSS </br>
 Install tailwindcss and its peer dependencies via npm, and create your tailwind.config.js file
 
-``` 
+```terminal 
 npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init
 ```
@@ -58,6 +58,6 @@ Add the @tailwind directives for each of Tailwind’s layers to your main CSS fi
 ``Step 5: ``
 Start your build process
 Run your build process with npm run dev or whatever command is configured in your package.json file
-```
+```terminal
 npm run dev
 ```
