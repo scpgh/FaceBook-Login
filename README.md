@@ -35,7 +35,7 @@ module.exports = {
 ``Step 3: ``
 Configure your template paths </br>
 Add the paths to all of your template files in your tailwind.config.js file.
-```
+```tailwind.config.js
   /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -49,7 +49,7 @@ module.exports = {
 Add the Tailwind directives to your CSS </br>
 Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
 
-```
+```main.css
 @tailwind base;
 @tailwind components;
 @tailwind utilities 
