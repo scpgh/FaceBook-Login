@@ -12,7 +12,7 @@ PostCSS is used by industry leaders including Wikipedia, Twitter, Alibaba,
 and JetBrains. The [Autoprefixer] and [Stylelint] PostCSS plugins are some of the most popular CSS tools.
 # Installation:
 
-``Step 1: ``
+``Step 1:``
 Install Tailwind CSS </br>
 Install tailwindcss and its peer dependencies via npm, and create your tailwind.config.js file
 
@@ -20,7 +20,7 @@ Install tailwindcss and its peer dependencies via npm, and create your tailwind.
 npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init
 ```
-``Step 2: ``
+``Step 2:``
 Add Tailwind to your PostCSS configuration </br>
 Add tailwindcss and autoprefixer to your postcss.config.js file, or wherever PostCSS is configured in your project.
 
@@ -32,7 +32,7 @@ module.exports = {
   }
 }
 ```
-``Step 3: ``
+``Step 3:``
 Configure your template paths </br>
 Add the paths to all of your template files in your tailwind.config.js file.
 ```tailwind.config.js
@@ -45,7 +45,7 @@ module.exports = {
   plugins: [],
 }
 ```
-``Step 4: ``
+``Step 4:``
 Add the Tailwind directives to your CSS </br>
 Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
 
@@ -55,7 +55,7 @@ Add the @tailwind directives for each of Tailwind’s layers to your main CSS fi
 @tailwind utilities 
 ```
 
-``Step 5: ``
+``Step 5:``
 Start your build process
 Run your build process with npm run dev or whatever command is configured in your package.json file
 ```terminal
